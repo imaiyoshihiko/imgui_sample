@@ -10,7 +10,7 @@
 
 // 1つのRenderUI()を実行する
 
-/*
+
 // ウィンドウの表示
 void RenderUI()
 {
@@ -22,7 +22,7 @@ void RenderUI()
  ImGui::Text("The window can be moved and resized.");
  ImGui::End();
 }
-*/
+
 
 /*
 // テキストの色
@@ -102,22 +102,9 @@ void RenderUI()
 }
 */
 
-
+/*
 // メニュー
 void RenderUI() {
-
-    // ----------------------------
-    // メニューバー全体のスタイル（色変更）
-    // ----------------------------
-    ImGui::PushStyleColor(ImGuiCol_MenuBarBg, ImVec4(1, 1, 1, 1)); // 白背景
-    ImGui::PushStyleColor(ImGuiCol_PopupBg, ImVec4(1, 1, 1, 1)); // 白背景
-    ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(0, 0, 0, 1));      // 黒文字
-
-    // MenuItem用（重要）
-    ImGui::PushStyleColor(ImGuiCol_Header, ImVec4(1, 1, 1, 1));          // 通常
-    ImGui::PushStyleColor(ImGuiCol_HeaderHovered, ImVec4(0.9f, 0.9f, 0.9f, 1)); // ホバー
-    ImGui::PushStyleColor(ImGuiCol_HeaderActive, ImVec4(0.8f, 0.8f, 0.8f, 1));  // クリック
-
     // ----------------------------
     // メニュー描画
     // ----------------------------
@@ -137,13 +124,8 @@ void RenderUI() {
 
         ImGui::EndMainMenuBar();
     }
-
-    // ----------------------------
-    // スタイルを元に戻す（順番逆！）
-    // ----------------------------
-    ImGui::PopStyleColor(6);
 }
-
+*/
 
 
 /*

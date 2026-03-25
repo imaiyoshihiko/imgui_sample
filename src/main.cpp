@@ -66,7 +66,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int)
     io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;
 
     // スタイル設定
-    ImGui::StyleColorsDark();
+    //ImGui::StyleColorsDark(); // ダークモード
+    ImGui::StyleColorsLight(); // ライトモード
 
     // ------------------------------------------------------------
 	// 日本語フォントの読み込み
