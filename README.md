@@ -36,6 +36,7 @@ imguiの使い方について、ウィンドウの表示、テキストの色変
 
 # ライセンスについて
 This project uses Dear ImGui (MIT License).
-Copyright (c) 2014-2025 Omar Cornut
+
+Copyright (c) 2014-2026 Omar Cornut
 
 See imgui/LICENSE.txt for details.
