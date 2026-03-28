@@ -33,3 +33,9 @@ imguiの使い方について、ウィンドウの表示、テキストの色変
 
 # PDFファイルについて
 参考記事として、ChatGPTにPDFファイルを作成してもらった。
+
+# ライセンスについて
+This project uses Dear ImGui (MIT License).
+Copyright (c) 2014-2025 Omar Cornut
+
+See imgui/LICENSE.txt for details.
